@@ -109,7 +109,7 @@ static void do_init(void) {
 	/* read the config file */
 	get_chain_data(proxychains_pd, &proxychains_proxy_count, &proxychains_ct);
 
-	proxychains_write_log(LOG_PREFIX "DLL init\n");
+	// proxychains_write_log(LOG_PREFIX "DLL init\n");
 	SETUP_SYM(connect);
 	SETUP_SYM(gethostbyname);
 	SETUP_SYM(getaddrinfo);
